@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.mainManuWrapper {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.mainManuWrapper .mainMenu {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    height: 36px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWâ€¦px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+.mainManuWrapper .mainMenu .urlS {
+    width: 845px;
+    float: left;
+    display: table;
+    table-layout: fixed;
+}
+.mainManuWrapper .mainMenu .urlS a {
+    float: left;
+    border-right: solid 1px #5a5a5a;
+    cursor: pointer;
+}
+.mainManuWrapper .mainMenu .urlS a span {
+    float: left;
+    background-image: url(https://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+    width: 104px;
+    height: 36px;
+    background-position: 135px 3px;
+}
+.mainManuWrapper .mainMenu .urlS a.store span {
+    background-position: 135px 215px;
+}
+.mainManuWrapper .mainMenu .urlS a.mac span {
+    background-position: 135px 185px;
+}
+.mainManuWrapper .mainMenu .urlS a.iPod span {
+    background-position: 135px 155px;
+}
+.mainManuWrapper .mainMenu .urlS a.iPhone span {
+    background-position: 135px 125px;
+}
+.mainManuWrapper .mainMenu .urlS a.iPad span {
+    background-position: 135px 95px;
+}
+.mainManuWrapper .mainMenu .urlS a.iTunes span {
+    background-position: 135px 65px;
+}
+.mainManuWrapper .mainMenu .urlS a.support span {
+    background-position: 135px 35px;
+}
+.mainManuWrapper .mainMenu .urlS a:hover {
+    -o-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+    -ms-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+    -moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+    background: #575757;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQâ€¦zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
+}
+.mainManuWrapper .mainMenu .searchTop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 106px;
+    padding: 3px 13px;
+    background: none;
+    border-width: 0 2px 0 1px;
+    -o-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAADUlEQVQIHWP4r8YABgAJCwEmqyi5lgAAAABJRU5ErkJggg%3D%3D) 0 2 0 1;
+    -ms-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAADUlEQVQIHWP4r8YABgAJCwEmqyi5lgAAAABJRU5ErkJggg%3D%3D) 0 2 0 1;
+    -moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAADUlEQVQIHWP4r8YABgAJCwEmqyi5lgAAAABJRU5ErkJggg%3D%3D) 0 2 0 1;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAADUlEQVQIHWP4r8YABgAJCwEmqyi5lgAAAABJRU5ErkJggg%3D%3D) 0 2 0 1;
+}
+.mainManuWrapper .mainMenu .searchTop span {
+    float: left;
+    margin-top: 5px;
+}
+.mainManuWrapper .mainMenu .searchTop div {
+    float: left;
+    width: 100%;
+    border: solid 3px #2f2e2e;
+    border-radius: 20px;
+}
+.mainManuWrapper .mainMenu .searchTop span input {
+    background: none;
+    border: none;
+    float: left;
+    width: 60px;
+}
+.mainManuWrapper .mainMenu .searchTop .loopIcon {
+    float: LEFT;
+    margin-left: 8px;
+    margin-top: 0px;
+}
